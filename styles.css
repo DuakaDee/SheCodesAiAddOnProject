@@ -1,0 +1,49 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff0f5;
+  padding: 2rem;
+  color: #333;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #ffc0cb;
+  cursor: not-allowed;
+}
+
+ul {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
