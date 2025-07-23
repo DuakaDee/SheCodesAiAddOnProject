@@ -54,16 +54,34 @@ const App = () => {
         ))}
       </ul>
 
-      <footer>
-        <footer style={{ marginTop: "2rem", fontSize: "0.9rem" }}>
-          <a
-            href="https://github.com/DuakaDee/SheCodesAiAddOnProject"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Source on GitHub
-          </a>
-        </footer>
+      <footer
+        style={{ marginTop: "2rem", fontSize: "0.9rem", textAlign: "center" }}
+      >
+        This AI project was coded by{" "}
+        <a
+          href="https://github.com/DuakaDee"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Doris Duaka
+        </a>
+        , is{" "}
+        <a
+          href="https://github.com/DuakaDee/SheCodesAiAddOnProject"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          open-sourced on GitHub
+        </a>
+        , and is{" "}
+        <a
+          href="https://github.com/DuakaDee/SheCodesAiAddOnProject"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          hosted on Netlify
+        </a>
+        .
       </footer>
     </div>
   );
@@ -71,4 +89,3 @@ const App = () => {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
-
