@@ -55,13 +55,15 @@ const App = () => {
       </ul>
 
       <footer>
-        <a
-          href="https://github.com/YOUR_GITHUB_USERNAME/baby-names-generator"
-          target="_blank"
-          rel="noreferrer"
-        >
-          View Source Code on GitHub
-        </a>
+        <footer style={{ marginTop: "2rem", fontSize: "0.9rem" }}>
+          <a
+            href="https://github.com/DuakaDee/SheCodesAiAddOnProject"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Source on GitHub
+          </a>
+        </footer>
       </footer>
     </div>
   );
