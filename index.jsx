@@ -74,7 +74,7 @@ const App = () => {
           </a>{" "}
           and hosted on{" "}
           <a
-            href="https://your-netlify-site.netlify.app"
+            href="https://cutebabynames.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >

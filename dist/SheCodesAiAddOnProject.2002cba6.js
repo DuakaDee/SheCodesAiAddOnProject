@@ -752,22 +752,52 @@ const App = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
-                    style: {
-                        marginTop: "2rem",
-                        fontSize: "0.9rem"
-                    },
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "https://github.com/DuakaDee/SheCodesAiAddOnProject",
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: "View Source on GitHub"
-                    }, void 0, false, {
-                        fileName: "index.jsx",
-                        lineNumber: 59,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
+                style: {
+                    marginTop: "2rem",
+                    fontSize: "0.9rem"
+                },
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    children: [
+                        "This AI project was coded by",
+                        " ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "https://github.com/DuakaDee",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: "Doris Duaka"
+                        }, void 0, false, {
+                            fileName: "index.jsx",
+                            lineNumber: 60,
+                            columnNumber: 11
+                        }, undefined),
+                        ", is",
+                        " ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "https://github.com/DuakaDee/SheCodesAiAddOnProject",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: "open-sourced on GitHub"
+                        }, void 0, false, {
+                            fileName: "index.jsx",
+                            lineNumber: 68,
+                            columnNumber: 11
+                        }, undefined),
+                        " ",
+                        "and hosted on",
+                        " ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "https://cutebabynames.netlify.app/",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: "Netlify"
+                        }, void 0, false, {
+                            fileName: "index.jsx",
+                            lineNumber: 76,
+                            columnNumber: 11
+                        }, undefined),
+                        "."
+                    ]
+                }, void 0, true, {
                     fileName: "index.jsx",
                     lineNumber: 58,
                     columnNumber: 9
@@ -789,7 +819,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "index.jsx",
-    lineNumber: 73,
+    lineNumber: 91,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -27351,6 +27381,6 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["fgT0v","aiwHB"], "aiwHB", "parcelRequire6aaa", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["fgT0v","aiwHB"], "aiwHB", "parcelRequire2848", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=SheCodesAiAddOnProject.2002cba6.js.map
