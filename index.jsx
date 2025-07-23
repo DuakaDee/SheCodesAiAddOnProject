@@ -54,34 +54,34 @@ const App = () => {
         ))}
       </ul>
 
-      <footer
-        style={{ marginTop: "2rem", fontSize: "0.9rem", textAlign: "center" }}
-      >
-        This AI project was coded by{" "}
-        <a
-          href="https://github.com/DuakaDee"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Doris Duaka
-        </a>
-        , is{" "}
-        <a
-          href="https://github.com/DuakaDee/SheCodesAiAddOnProject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          open-sourced on GitHub
-        </a>
-        , and is{" "}
-        <a
-          href="https://github.com/DuakaDee/SheCodesAiAddOnProject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          hosted on Netlify
-        </a>
-        .
+      <footer style={{ marginTop: "2rem", fontSize: "0.9rem" }}>
+        <p>
+          This AI project was coded by{" "}
+          <a
+            href="https://github.com/DuakaDee"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Doris Duaka
+          </a>
+          , is{" "}
+          <a
+            href="https://github.com/DuakaDee/SheCodesAiAddOnProject"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://your-netlify-site.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
+          .
+        </p>
       </footer>
     </div>
   );
